@@ -1,0 +1,9 @@
+cat > .gitignore <<'EOF'
+.venv/
+__pycache__/
+*.pyc
+*.log
+evil_twin_lab_log.txt
+.idea/
+.vscode/
+EOF
